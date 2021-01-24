@@ -1,0 +1,118 @@
+@font-face{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #2e2e2e ;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body header {
+    margin: 0;
+    padding: 0;
+    width:100%; 
+}
+
+/* Navbar CSS */
+
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    margin-right: 100px;
+    
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white; 
+}
+
+header nav ul li:hover{
+    border-bottom: 1px solid #ebccc2;
+    color:#ebccc2; 
+}
+
+/* Head first Page  Header*/
+
+body h1 {
+    color: #ebccc2;
+    text-align:center;
+    
+}
+
+.headergo {
+    font-family: sans-serif;
+    margin-top:100px; 
+    margin-left:-20%; 
+    font-size:50px; 
+}
+
+body  img:nth-of-type(1) {
+    width:70%;
+    margin-top:100px;
+    margin-left:20%; 
+    margin-bottom:300px; 
+    
+    
+}
+
+/* First Page Sidebars */
+
+body main nav ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    margin-right: 100px;
+    position:relative;
+    bottom: 755px; 
+    
+}
+
+body main nav ul li{
+    padding: 50px;
+    color: #ebccc2; 
+    
+}
+
+body main nav ul li :hover{
+    
+    color:tomato; 
+}
+
+.a {
+    color:#ebccc2; 
+    
+    
+}
+
+
+/* FRAGE hier wollte ich das Bild stylen mit einer width aber es hat nicht funktioniert. Der Befehl hight funktioniert aber??? */
+
+
+body main img {
+    display:inline-block; 
+   position:relative;
+   left:-9%; 
+   bottom:500px; 
+   width:300px; 
+}
+
+/* Weil ich das Bild irgendwie nicht anpassen konnte wurde der Text auch leider runter positioniert anstelle daneben */
+body footer h1 {
+    color:#ebccc2; 
+    position:relative;
+    bottom: 620px; 
+
+}
+
+body footer p{
+    color:#ebccc2; 
+    position:relative;
+    bottom: 620px; 
+    width:40%; 
+    left:32%
+}

@@ -1,0 +1,75 @@
+@font-face{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #2e2e2e ;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body header {
+    margin: 0;
+    padding: 0;
+    width:100%; 
+}
+
+/* Navbar CSS */
+
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    margin-right: 100px;
+    
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white; 
+}
+
+header nav ul li:hover{
+    border-bottom: 1px solid #ebccc2;
+    color:#ebccc2; 
+}
+
+/* Loung IMG */
+
+body main img {
+    display:inline-block; 
+   width:50%; 
+   height:1000px; 
+}
+
+
+/* Sidebar */
+
+body main nav ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    margin-right: 100px;
+    position:relative;
+    bottom: 755px; 
+    
+}
+
+body main nav ul li{
+    padding: 50px;
+    color: #ebccc2; 
+    
+}
+
+body main nav ul li :hover{
+    
+    color:tomato; 
+}
+
+.a {
+    color:#ebccc2; 
+    
+    
+}
